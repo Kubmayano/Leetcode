@@ -1,8 +1,3 @@
 .vscode/
 bin/
-bin/Debug
-bin/Debug/net6.0
 obj/
-obj/Debug
-obj/Debug/ref
-obj/Debug/refint
