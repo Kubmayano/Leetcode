@@ -13,6 +13,7 @@ namespace Leetcode
         public static void Main(string[] args)
         {
             Solution s = new Solution();
+            System.Console.WriteLine(s.IsPowerOfTwo(-2048));
         }
 
         public bool isPalindrome(int x) //Cheks if a number is palindrome, Question NO: 9, Diff: Easy
@@ -26,6 +27,11 @@ namespace Leetcode
             else return false;
         }
 
-        
+        public bool IsPowerOfTwo(int n) //Checks if a number is a power of 2, Question NO: 231, Diff: Easy
+        {
+            if (n % 2 == 0) return true;
+
+            else return false;
+        }        
     }
 }
