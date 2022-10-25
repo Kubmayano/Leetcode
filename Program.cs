@@ -13,7 +13,6 @@ namespace Leetcode
         public static void Main(string[] args)
         {
             Solution s = new Solution();
-            s.TitleToNumber("AA");
         }
 
         public bool isPalindrome(int x) //Cheks if a number is palindrome, Question NO: 9
@@ -26,6 +25,6 @@ namespace Leetcode
             if (n == reverse) return true;
             else return false;
         }
-        
+
     }
 }
