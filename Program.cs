@@ -28,14 +28,7 @@ namespace Leetcode
 
         public int SingleNumber(int[] nums) //Return the single integer in nums array, Question NO: 136, Diff: Easy
         {
-            int output = 0;
-
-            for (int i = 0; i < nums.Length; i++)
-            {
-                output = nums[i];
-            }
-
-            return output;
+            return 0;
         }
     }
 }
