@@ -15,7 +15,7 @@ namespace Leetcode
             Solution s = new Solution();
         }
 
-        public bool isPalindrome(int x) //Cheks if a number is palindrome, Question NO: 9
+        public bool isPalindrome(int x) //Cheks if a number is palindrome, Question NO: 9, Diff: Easy
         {
             if (x < 0) return false;
 
@@ -26,5 +26,16 @@ namespace Leetcode
             else return false;
         }
 
+        public int SingleNumber(int[] nums) //Return the single integer in nums array, Question NO: 136, Diff: Easy
+        {
+            int output = 0;
+
+            for (int i = 0; i < nums.Length; i++)
+            {
+                output = nums[i];
+            }
+
+            return output;
+        }
     }
 }
