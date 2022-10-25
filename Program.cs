@@ -29,7 +29,8 @@ namespace Leetcode
 
         public bool IsPowerOfTwo(int n) //Checks if a number is a power of 2, Question NO: 231, Diff: Easy
         {
-            if (n % 2 == 0) return true;
+            if (Math.Abs(n) == 1) return true;
+            if (Math.Abs(n) % 2 == 0) return true;
 
             else return false;
         }        
