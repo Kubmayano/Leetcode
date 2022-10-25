@@ -26,9 +26,6 @@ namespace Leetcode
             else return false;
         }
 
-        public int SingleNumber(int[] nums) //Return the single integer in nums array, Question NO: 136, Diff: Easy
-        {
-            return 0;
-        }
+        
     }
 }
