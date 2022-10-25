@@ -13,7 +13,7 @@ namespace Leetcode
         public static void Main(string[] args)
         {
             Solution s = new Solution();
-            System.Console.WriteLine(s.IsPowerOfTwo(2));
+            System.Console.WriteLine(s.IsPowerOfThree(243));
         }
 
         public bool isPalindrome(int x) //Cheks if a number is palindrome, Question NO: 9, Diff: Easy
@@ -32,6 +32,18 @@ namespace Leetcode
             if (n == 1) return true;
 
             double x = Math.Abs(Math.Log2(n));
+
+            if (x % Math.Round(x) == 0) return true;
+
+            else return false;
+        }
+
+        public bool IsPowerOfThree(int n) //Checks if a number is a power of 3, Question NO: 231, Diff: Easy
+        {
+            if (n == 1) return true;
+
+            double x = Math.Abs(Math.Log(n) / Math.Log(3));
+            x = Math.Round(x);
 
             if (x % Math.Round(x) == 0) return true;
 
